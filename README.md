@@ -1,3 +1,5 @@
 # Learn In Depth Diploma
-## Ziad-Osama
+
+##  Name: Ziad-Osama
+### this repo will contain all my assignments through this diploma.
 
