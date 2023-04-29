@@ -19,7 +19,7 @@ int main() {
 	fflush(stdout);
 	scanf("%d", &st_number);
 	for ( i = 1, sum = 0; i <= st_number; i++) {
-		printf("Enter Student(%d)degree",i);
+		printf("Enter Student(%d)degree: ",i);
 		fflush(stdin);
 		fflush(stdout);
 		scanf("%f",&degree);
