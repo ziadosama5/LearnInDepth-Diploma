@@ -14,12 +14,12 @@
 int main(void) {
 	int a,sum = 0,count = 1;
 	printf("Enter an integer: ");
-	fflush(stdin); fflush(stdout);
 	scanf("%d",&a);
 	while(count<=a){
 		sum += count;
 		++count;
 	}
-	printf("Sum = %d", sum);
+	printf("Sum = %d \n", sum);
+	system("pause");
 	return 0;
 }
