@@ -8,17 +8,18 @@
  ============================================================================
  */
 
+
 #include <stdio.h>
 #include <stdlib.h>
 
 int main(void) {
+	setvbuf(stdout, NULL, _IONBF, 0);
+	setvbuf(stderr, NULL, _IONBF, 0);
 	char op;
 	float num1,num2;
 	printf("Enter an operator either +/-/*/divide: ");
-	fflush(stdin); fflush(stdout);
 	scanf("%c",&op);
 	printf("Enter the two operands: ");
-	fflush(stdin); fflush(stdout);
 	scanf("%f %f",&num1,&num2);
 	switch(op){
 	case '+':
