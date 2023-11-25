@@ -1,4 +1,4 @@
-#include <stdio.h>
+/*#include <stdio.h>
 
 int main(){
     int a[100];
@@ -26,4 +26,21 @@ int main(){
     }
     
     system("pause");
+}*/
+
+// write a program to print the inverse of a given array
+#include <stdio.h>
+int main() {
+    int num;
+    int arr[10];
+    for (int i=0;i<10;i++){
+        scanf("%d",&arr[i]);
+        arr[i] = num;
+    }
+
+    for(int i=9;i>=0;i--){
+        printf("%d, ",arr[i]);}
+  
+    system("pause");
 }
+  
